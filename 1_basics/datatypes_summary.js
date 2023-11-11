@@ -38,3 +38,26 @@ console.log(typeof scoreValue); // number datatype
 console.log(typeof myFunction); //function/object function datatype
 console.log(typeof heros); //object function
 console.log(typeof anotherId); //symbol datatype
+//*******************************************
+
+//Stack (primitive), Heap (non-primitive)
+//stack memory
+let myYoutubename = "khushidadhich.com"
+
+let anothername = myYoutubename
+anothername = "dadhich.com"
+
+console.log(myYoutubename);
+console.log(anothername);
+//heap memory
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Khushi@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
