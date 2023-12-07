@@ -13,7 +13,7 @@ let isLoggedIn = false //boolean datatype
 //boolean => true or false
 //null => stand alone value, yeah ek datatype h, representation of empty value
 //null ek object h 
-//undefined => mtlb variable define kari h pr value assign nhi kiya h
+//undefined => mtlb variable define kiya h pr value assign nhi kiya h
 //symbol => yeah react m kaam ata h, jab hum bahut sara componenet banate h or humko idenetify karna h yeah wala component unique h
 
 //object
