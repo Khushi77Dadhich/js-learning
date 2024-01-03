@@ -46,4 +46,4 @@ const users = [
 ]
 
 users[1].email
-console.log
+console.log();
