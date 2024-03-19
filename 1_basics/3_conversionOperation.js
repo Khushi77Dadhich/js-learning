@@ -47,13 +47,14 @@ let str1 = "Hello"
 let str2 = " Khushi"
 
 let str3 = str1 + str2
-//console.log(str3);
+// console.log(str3);
 
-// console.log("1" + 2);
-// console.log(1 + "2");
+console.log("1" + 2);    //12
+console.log(1 + "2");     //12
+console.log("1" + 2 + 2);   //122
 
 // console.log(true);
-// console.log(+true);
+// console.log(+true);     1
 // console.log(+"");
 
 let num1, num2, num3
