@@ -28,9 +28,11 @@ const chai = () => {
 }
 
 /////////////////arrow function//////////////////////
-const addtwonum = (num1 , num2) => {
-    return num1 + num2;
-}
-console.log(addtwonum(7, 5));
+// const addtwonum = (num1 , num2) => {
+//     return num1 + num2;
+// }    
+// const addtwonum = (num1 , num2) => num1 + num2
 
-co
+const addtwonum = (num1 ,  num2) => ({username : "khushi"})
+
+console.log(addtwonum(7, 5));
