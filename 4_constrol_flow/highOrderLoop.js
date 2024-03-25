@@ -36,4 +36,4 @@ const programming = ["html", "css","javascript", "react"]
 for (const key in programming) {
     //console.log(key);//output will be 1 2 3 4 5 indexes
     console.log(programming[key]); //here we will get the keys
-}
+} 
